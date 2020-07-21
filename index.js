@@ -14,7 +14,7 @@ function greet(timeString){
   
   let time=timeString.parseInt(timeString,10);
   return (time<12)?"Good Morning":
-   (time>12 && timeString.parseInt(timeString,10)<17 )?
+   (time>12 && time<17 )?
    "Good Afternoon":"Good Evening";
 }
 /* Write your implementation of displayMessage() */
