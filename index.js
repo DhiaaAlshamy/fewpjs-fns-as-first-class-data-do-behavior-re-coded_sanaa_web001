@@ -11,7 +11,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString){
-  return (timeString.>)
+  return (timeString.parseInt(timeString,10)<12)?"Good Morning":
+   (timeString.parseInt(timeString,10)<12)?
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(greet){
